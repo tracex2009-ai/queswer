@@ -1,0 +1,61 @@
+.head{
+      color:blue;
+      padding:3px;
+      font-family: Georgia;
+      text-align:left;
+      letter-spacing:2px;
+      text-transform: uppercase;
+      border:4px dashed black;
+      background-color: yellow;
+      border-radius:20px;
+      box-shadow:5px 5px 10px gray;
+      flex-wrap:wrap;
+      z-index:0;
+      
+      
+}
+body {
+      background-color:white;
+      
+}
+.subhead{
+      color:black;
+      padding:4px;
+      text-align:center;
+      font-family:Georgia;
+      letter-spacing:2px;
+      padding:20px;
+      background-color:skyblue;
+      border:4px dashed black;
+      border-radius:20px;
+      box-shadow:5px 5px 10px gray;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      z-index:1;
+      }
+.qu{
+      color:red;
+      padding:px;
+      font-family:Georgia;
+      }
+.an{
+      color:blue;
+      font-family:Georgia;
+      }
+
+.stanza{
+       text-align:center;
+       font-family:Georgia;
+       color:green;
+       letter-spacing:1px;
+       
+}
+.subqu{
+      font-family: Georgia;
+      
+}
+p{
+      font-size:18px;
+      font-family: georgia;
+      font-weight:bold;
+}
