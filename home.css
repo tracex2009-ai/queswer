@@ -1,0 +1,18 @@
+body{
+  background-color:white;
+}
+h1{
+  font-family:georgia;
+  background-color: yellow;
+  padding:20px;
+  color:red;
+  text-align:center;
+  border:5px solid black;
+  border-radius:20px;
+  box-shadow:5px 5px 10px darkgray;
+  letter-spacing:1px;
+  z-index:0;
+}
+h2{
+  color: blue;
+}
