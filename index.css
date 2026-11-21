@@ -59,3 +59,26 @@ p{
       font-family: georgia;
       font-weight:bold;
 }
+.navbar{
+      border:6px solid black;
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+      padding:15px 25px;
+      background-color:pink;
+      border-radius:20px;
+      box-shadow:5px 5px 10px gray;
+      position:sticky;
+      top:0;
+      
+}
+.logo{
+      font-family:georgia;
+      color:red;
+      margin:0;
+      font-size:25px;
+}
+.nav-links{
+      color:black;
+      font-size:18px;
+}
