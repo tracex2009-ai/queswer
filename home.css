@@ -3,11 +3,11 @@ body{
 }
 h1{
   font-family:georgia;
-  background-color: yellow;
-  padding:20px;
+  background-color:white;
+  padding:10px;
   color:red;
   text-align:center;
-  border:5px solid black;
+  font-size:35px;
   border-radius:20px;
   box-shadow:5px 5px 10px darkgray;
   letter-spacing:1px;
@@ -15,4 +15,5 @@ h1{
 }
 h2{
   color: blue;
+  font-family:georgia;
 }

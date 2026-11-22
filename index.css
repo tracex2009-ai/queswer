@@ -5,7 +5,7 @@
       text-align:left;
       letter-spacing:2px;
       text-transform: uppercase;
-      border:4px dashed black;
+    
       background-color: yellow;
       border-radius:20px;
       box-shadow:5px 5px 10px gray;
@@ -23,10 +23,10 @@ body {
       padding:4px;
       text-align:center;
       font-family:Georgia;
-      letter-spacing:2px;
-      padding:20px;
+      letter-spacing:4px;
+      
       background-color:skyblue;
-      border:4px dashed black;
+     
       border-radius:20px;
       box-shadow:5px 5px 10px gray;
       flex-wrap:wrap;
@@ -60,12 +60,12 @@ p{
       font-weight:bold;
 }
 .navbar{
-      border:6px solid black;
+     
       display:flex;
       justify-content:space-between;
       align-items: center;
-      padding:15px 25px;
-      background-color:pink;
+      padding:5px 25px;
+      background-color:white;
       border-radius:20px;
       box-shadow:5px 5px 10px gray;
       position:sticky;
