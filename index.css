@@ -1,93 +1,19 @@
-.head{
-      color:blue;
-      padding:3px;
-      font-family: Georgia;
-      text-align:left;
-      letter-spacing:2px;
-      text-transform: uppercase;
-    
-      background-color: yellow;
-      border-radius:20px;
-      box-shadow:5px 5px 10px gray;
-      flex-wrap:wrap;
-      z-index:0;
-      
-      
+body{
+  background-color:white;
 }
-body {
-      background-color:white;
-      
+h1{
+  font-family:georgia;
+  background-color:white;
+  padding:10px;
+  color:red;
+  text-align:center;
+  font-size:30px;
+  border-radius:20px;
+  box-shadow:5px 5px 10px darkgray;
+  letter-spacing:1px;
+  z-index:0;
 }
-.subhead{
-      color:black;
-      padding:4px;
-      text-align:center;
-      font-family:Georgia;
-      letter-spacing:4px;
-      
-      background-color:skyblue;
-     
-      border-radius:20px;
-      box-shadow:5px 5px 10px gray;
-      flex-wrap:wrap;
-      justify-content:space-between;
-      z-index:1;
-      }
-.qu{
-      color:red;
-      padding:px;
-      font-family:Georgia;
-      }
-.an{
-      color:blue;
-      font-family:Georgia;
-      }
-
-.stanza{
-       text-align:center;
-       font-family:Georgia;
-       color:green;
-       letter-spacing:1px;
-       
-}
-.subqu{
-      font-family: Georgia;
-      
-}
-p{
-      font-size:18px;
-      font-family: georgia;
-      font-weight:bold;
-}
-.navbar{
-     
-      display:flex;
-      justify-content:space-between;
-      align-items: center;
-      padding:5px 25px;
-      background-color:white;
-      border-radius:20px;
-      box-shadow:5px 5px 10px gray;
-      position:sticky;
-      top:0;
-      
-}
-.logo{
-      font-family:georgia;
-      color:red;
-      margin:0;
-      font-size:25px;
-}
-.nav-links{
-      color:black;
-      font-size:18px;
-}
-.topic{
-      color:red;
-      font-family:georgia;
-      letter-spacing:2px;
-}
-.para{
-      color:green;
-      
+h2{
+  color: blue;
+  font-family:georgia;
 }
