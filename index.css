@@ -36,3 +36,12 @@ h2{
   color: #000;
   font-weight:bold;
 }
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;        /* Mobile par poori fit rahegi */
+  max-width: 400px;   /* Desktop par 400px se zyada badi nahi hogi */
+  height: auto;       /* Image pichkegi ya khichegi nahi (aspect ratio sahi rahega) */
+}
