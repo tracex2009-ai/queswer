@@ -1,16 +1,21 @@
+.body{
+  background-color: off-white;
+  color: slategray;
+}
 .head{
-      color:blue;
+      color:white;
       padding:3px;
       font-family: Georgia;
       text-align:left;
       letter-spacing:2px;
       text-transform: uppercase;
-    
-      background-color: yellow;
+      gap:20px;
+      background-color:blue;
       border-radius:20px;
-      box-shadow:5px 5px 10px gray;
+      box-shadow:5px 5px 10px black;
       flex-wrap:wrap;
       z-index:0;
+      margin-top:10px;
       
       
 }
@@ -19,13 +24,14 @@ body {
       
 }
 .subhead{
-      color:black;
+      color: darkblue;
       padding:4px;
       text-align:center;
       font-family:Georgia;
       letter-spacing:4px;
-      
+      gap: 20px;
       background-color:skyblue;
+      margin-top:10px;
      
       border-radius:20px;
       box-shadow:5px 5px 10px gray;
@@ -34,24 +40,28 @@ body {
       z-index:1;
       }
 .qu{
-      color:red;
+      color:purple;
       padding:px;
       font-family:Georgia;
+      font-weight:bold;
       }
 .an{
-      color:blue;
+      color:dark darkgray normal;
       font-family:Georgia;
       }
 
 .stanza{
        text-align:center;
        font-family:Georgia;
-       color:green;
+       color:charocal-gray;
        letter-spacing:1px;
+       background-color:light-gray;
+       
        
 }
 .subqu{
       font-family: Georgia;
+      color: purple;
       
 }
 p{
@@ -59,29 +69,9 @@ p{
       font-family: georgia;
       font-weight:bold;
 }
-.navbar{
-     
-      display:flex;
-      justify-content:space-between;
-      align-items: center;
-      padding:5px 25px;
-      background-color:white;
-      border-radius:20px;
-      box-shadow:5px 5px 10px gray;
-      position:sticky;
-      top:0;
-      
-}
-.logo{
-      font-family:georgia;
-      color:red;
-      margin:0;
-      font-size:25px;
-}
-.nav-links{
-      color:black;
-      font-size:18px;
-}
+
+
+
 .topic{
       color:red;
       font-family:georgia;
@@ -94,4 +84,177 @@ p{
 .disclaimer{
       color:black;
       font-weight:bold;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: georgia
+}
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* Compact & Clean Navbar */
+.navbar {
+  background-color: white;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius:10px;
+  gap:20px;
+  box-shadow: 0 2px 6px 5px darkgray;
+}
+
+.logo {
+  color:red;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family:georgia;
+}
+
+/* Hamburger Button (Sirf Mobile par dikhega) */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color:black;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  color:blue;
+}
+
+.nav-links a {
+  color:white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: block;
+}
+
+.nav-links a:hover {
+  background-color:blue;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  color: black;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 230px;
+  box-shadow: 0 4px 10px dimgray;
+  border-radius: 6px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.dropdown-menu a {
+  color: #1e293b;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 0;
+}
+
+.dropdown-menu a:hover {
+  background-color: #eff6ff;
+  color: #1e3a8a;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Mobile View Settings */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none; /* Shuru me chhupa rahega */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #1e3a8a;
+    padding: 10px 18px 18px;
+    gap: 5px;
+    border-top: 1px solid #3b82f6;
+  }
+
+  .nav-links.active {
+    display: flex; /* Button dabane par khulega */
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: #172554;
+    box-shadow: none;
+    margin-top: 5px;
+  }
+
+  .dropdown-menu a {
+    color: #e2e8f0;
+    padding-left: 20px;
+    border-bottom: 1px solid #1e3a8a;
+  }
+}
+
+/* Clean Content Card (Yellow/Red/Green hatane ke liye) */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.chapter-title {
+  font-size: 22px;
+  color: #1e3a8a;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.section-heading {
+  background-color: #eff6ff;
+  color: #1e40af;
+  padding: 8px 12px;
+  border-left: 4px solid #2563eb;
+  font-size: 18px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+.poem-box {
+  background-color: #f1f5f9;
+  padding: 15px;
+  border-radius: 8px;
+  font-style: italic;
+  color: #334155;
+  margin: 12px 0;
 }

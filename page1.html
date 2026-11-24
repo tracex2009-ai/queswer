@@ -37,12 +37,32 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <h2 class="logo">WEBSHIA Pathshala </h2>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-    </div>
-  </nav>
+<nav class="navbar">
+  <a href="index.html" class="logo">WEBSHIA Pathshala</a>
+  <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="#">Class 9 English ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="page1.html">Ch 1: How I Taught My Grandmother</a></li>
+        <li><a href="page2.html">Poem 1: Bharat Our Land</a></li>
+      </ul>
+    </li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+  </ul>
+</nav>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
+
+
   
   <h1 class="head">NCERT Solutions <br>for class 9 English Kaveri Chapter 1 <br>Poem - Bharat Our Land</h1>
   
