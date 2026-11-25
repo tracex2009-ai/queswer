@@ -21,22 +21,8 @@
 
       
 }
-.subhead{
-      color: darkblue;
-      padding:4px;
-      text-align:center;
-      font-family:Georgia;
-      letter-spacing:4px;
-      gap: 20px;
-      background-color:skyblue;
-      margin-top:10px;
-     
-      border-radius:20px;
-      box-shadow:5px 5px 10px gray;
-      flex-wrap:wrap;
-      justify-content:space-between;
-      z-index:1;
-      }
+
+      
 .qu{
       color:purple;
       padding:px;
@@ -257,4 +243,43 @@ body {
   font-style: italic;
   color: #334155;
   margin: 12px 0;
+}
+h3{
+    color:purple;
+    font-family:Georgia;
+  }
+  .vocab-table {
+  width: 100%;
+  max-width: 650px;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-family: Arial, sans-serif;
+}
+
+.vocab-table th,
+.vocab-table td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.vocab-table thead tr {
+  background-color: #2b7a9b;
+  color: #ffffff;
+}
+
+.vocab-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+blockquote {
+  background-color: #f0f7fa;
+  border-left: 4px solid #2b7a9b;
+  padding: 12px 16px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+h2{
+  color:blue;
+  font-family:Georgia;
+  text-align:center;
 }
