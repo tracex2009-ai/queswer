@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://tracex2009-ai.github.io/queswer/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <loc>https://github.io</loc>
+    <lastmod>2026-11-26</lastmod>
     <priority>1.0</priority>
   </url>
+
+  <!-- Chapter Pages -->
   <url>
-    <loc>https://github.io</loc>
-    <lastmod>2026-11-23</lastmod>
+    <loc>https://github.ioHow-I-Taught-My-Grandmother-To-Read.html</loc>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://github.io</loc>
-    <lastmod>2026-11-23</lastmod>
+    <loc>https://github.ioBharat-Our-Land.html</loc>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://github.io</loc>
-    <lastmod>2026-11-23</lastmod>
+    <loc>https://github.ioThe-Pot-Maker.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://github.ioGifts-Of-Grace.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Other Pages -->
+  <url>
+    <loc>https://github.ioabout.html</loc>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.5</priority>
   </url>
+
   <url>
-    <loc>https://github.io</loc>
-    <lastmod>2026-11-23</lastmod>
+    <loc>https://github.iocontact.html</loc>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.5</priority>
   </url>
+
   <url>
-    <loc>https://github.io</loc>
-    <lastmod>2026-11-23</lastmod>
-    <priority>0.5</priority>
+    <loc>https://github.ioprivacy-policy.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.3</priority>
   </url>
+
 </urlset>
