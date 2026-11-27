@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://tracex2009-ai.github.io/queswer/sitemap.xml
+Sitemap: https://webshiapathshala.github.io/
+/sitemap.xml
