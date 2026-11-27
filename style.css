@@ -27,12 +27,14 @@
   box-sizing: border-box;
   font-family: georgia
 }
-
 body {
-  background-color: #f8fafc;
-  color: #1e293b;
-  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s;
 }
+
+
+
 
 /* Compact & Clean Navbar */
 .navbar {
@@ -433,3 +435,9 @@ li {
   text-align: right;
   margin-top: 16px;
 }
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+}
+
