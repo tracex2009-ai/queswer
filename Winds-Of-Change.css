@@ -162,3 +162,10 @@ disclaimer{
   font-family:georgia;
   gap:20px;
 }
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 20px 20px 100px 20px; /* Bottom me 100px space add kiya gaya hai */
+    }
