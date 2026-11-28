@@ -1,0 +1,164 @@
+.body{
+  background-color: off-white;
+  color: slategray;
+}
+.head{
+      color:white;
+      padding:3px;
+      font-family: Georgia;
+      text-align:left;
+      letter-spacing:2px;
+      text-transform: uppercase;
+      gap:20px;
+      background-color:blue;
+      border-radius:20px;
+      box-shadow:5px 5px 10px black;
+      flex-wrap:wrap;
+      z-index:0;
+      margin-top:10px;
+      
+      
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: georgia
+}
+
+body {
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* Compact & Clean Navbar */
+.navbar {
+  background-color: white;
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius:10px;
+  gap:20px;
+  box-shadow: 0 2px 6px 5px darkgray;
+}
+
+.logo {
+  color:red;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  font-family:georgia;
+}
+
+/* Hamburger Button (Sirf Mobile par dikhega) */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color:black;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  color:blue;
+}
+
+.nav-links a {
+  color:black;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: block;
+}
+
+.nav-links a:hover {
+  background-color:white;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  color: black;
+  background-color:white;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color:white;
+  min-width: 230px;
+  box-shadow: 0 4px 10px dimgray;
+  border-radius: 6px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.dropdown-menu a {
+  color:white;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 0;
+}
+
+.dropdown-menu a:hover {
+  background-color:slate-gray;
+  color:gray;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Mobile View Settings */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    display: none; /* Shuru me chhupa rahega */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    padding: 10px 18px 18px;
+    gap: 5px;
+    border-top: 1px solid #3b82f6;
+  }
+
+  .nav-links.active {
+    display: flex; /* Button dabane par khulega */
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color:white;
+    box-shadow: none;
+    margin-top: 5px;
+  }
+
+  .dropdown-menu a {
+    color:black;
+    padding-left: 20px;
+    border-bottom: 1px solid #1e3a8a;
+  }
+}
+disclaimer{
+  font-size:17px;
+  font-weight:bold;
+  font-family:georgia;
+  gap:20px;
+}
